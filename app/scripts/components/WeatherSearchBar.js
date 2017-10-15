@@ -1,7 +1,7 @@
 import React from 'react'
 import AutoComplete from 'material-ui/AutoComplete'
 
-import {simpleSearch} from '../searchMapUtils'
+import {searchFilter} from '../searchMapUtils'
 
 export default class WeatherSearchBar extends React.Component {
   static propTypes = {
@@ -26,7 +26,7 @@ export default class WeatherSearchBar extends React.Component {
           className='WeatherSearchBar-autocomplete'
           hintText='Search...'
           filter={AutoComplete.fuzzyFilter}
-          dataSource={simpleSearch}
+          dataSource={searchFilter}
           onNewRequest={this.onNewRequest}
           />
       </div>

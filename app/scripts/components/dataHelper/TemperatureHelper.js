@@ -7,6 +7,7 @@ export default {
       humidity: data.get('humidity'),
       tempMax: round(data.get('temp_max')),
       tempMin: round(data.get('temp_min')),
+      temp: round(data.get('temp')),
     })
   },
 }
