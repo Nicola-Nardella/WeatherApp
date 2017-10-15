@@ -1,0 +1,60 @@
+.WeatherCard {
+  border: 10px solid $color-teal;
+  width: 290px;
+  padding-bottom: 10px;
+  &-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  &-city {
+    font-size: 24px;
+  }
+  &-content {
+    padding: 10px;
+  }
+  &-temperature {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: darkgray;
+    &-content {
+      margin-left: 10px;
+      display: flex;
+    }
+    &-day,
+    &-night {
+      display: flex;
+      align-items: center;
+    }
+    &-day {
+      font-weight: 600;
+      font-size: 18px;
+      color: black;
+    }
+  }
+  &-umidity {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: darkgray;
+    &-content {
+      margin-left: 51px;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: black;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+  }
+}

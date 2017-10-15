@@ -1,0 +1,10 @@
+.WeatherMain {
+  width: 660px;
+  margin: auto;
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    border: 20px solid $color-teal;
+  }
+}

@@ -1,0 +1,10 @@
+build
+bower_components
+node_modules
+npm-debug.log
+package-lock.json
+
+# VS Code
+typings*
+jsconfig.json
+.vscode

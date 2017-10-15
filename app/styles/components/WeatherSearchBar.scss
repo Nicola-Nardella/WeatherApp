@@ -1,0 +1,19 @@
+.WeatherSearchBar {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  width: 580px !important;
+  border: 30px solid $color-teal;
+  hr {
+    display: none;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  & > div,
+  &-autocomplete {
+    width: 100% !important;
+    padding-left: 10px;
+  }
+}
